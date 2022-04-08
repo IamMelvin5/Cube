@@ -1,0 +1,71 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "basketball_marc_records",
+      "path": "basketball_marc_records_subset.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "100a",
+            "type": "string",
+            "format": "default",
+            "title": "Author or Editor"
+          },
+          {
+            "name": "245a",
+            "type": "string",
+            "format": "default",
+            "title": "Title"
+          },
+          {
+            "name": "245b",
+            "type": "string",
+            "format": "default",
+            "title": "Subtitle"
+          },
+          {
+            "name": "500a",
+            "type": "string",
+            "format": "default",
+            "title": "Notes"
+          },
+          {
+            "name": "505a",
+            "type": "string",
+            "format": "default",
+            "title": "Table of Contents"
+          },
+          {
+            "name": "650a",
+            "type": "string",
+            "format": "default",
+            "title": "Library of Congress Subject Headings"
+          }
+        ]
+      },
+      "title": "basketball_marc_records",
+      "format": "csv"
+    }
+  ],
+  "keywords": [
+    "basketball"
+  ],
+  "name": "basketball_marc_records",
+  "title": "basketball_marc_records",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "title": "melvin_ochieng",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ]
+}
